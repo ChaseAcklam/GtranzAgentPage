@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="<!-- Teamname -->" />
+<meta name="description" content="Official website for <!-- Teamname -->" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/master.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800,900|Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(window).scroll(function() {
+  if($(document).scrollTop() > 200){
+  $("#head_logo").css("opacity", 0 + $(window).scrollTop() / 300);
+}else{
+  $("#head_logo").css("opacity", '0');
+}
+});
+
+
+
+$(window).scroll(function(){
+    if($(document).scrollTop() > 500){
+        $('.headsection').addClass('fixed');
+    }else{
+        if($('.headsection').hasClass('fixed')){
+            $('.headsection').removeClass('fixed');
+        }
+    }
+});
+
+$(window).scroll(function(){
+    if($(document).scrollTop() > 1000){
+        $('.scroll_dark').addClass('scroll_to_top');
+    }else{
+        if($('.scroll_dark').hasClass('scroll_to_top')){
+            $('.scroll_dark').removeClass('scroll_to_top');
+        }
+    }
+});
+
+$(window).scroll(function(){
+    $(".logo").css("opacity", 1 - $(window).scrollTop() / 150);
+  });
+
+</script>
+</head>
+<body>
+  <!--- Mobile Head Section -->
+  <div class="mobile_header">
+    <div class="header_line"></div>
+    <div class="mobilesection">
+    <div class="tophead">
+      <a href="https://sureshot.salesdrip.com/"><div class="logo-m">
+        <img src="https://app.salesdrip.com/users/myteam46201/Media23.png" alt="">
+      </div></a>
+      <a href="javascript:showhide('buttonDropDown')">
+    	<button class="show-button" onclick="showButton(bottomhead)">
+        <div class="show_line"></div>
+        <div class="show_line"></div>
+        <div class="show_line"></div>
+        </button></a>
+      </div>
+    </div>
+    <div class="bottomhead" id="buttonDropDown" style="display:none;">
+      <div class="control_panel">
+          <div id="controlPanel">
+            <label for="show-menu" class="show-menu">&equiv;</label>
+            <input type="checkbox" id="show-menu" role="button">
+            <ul id="Page1Link">
+
+            </ul>
+            <!-- CSS Control Panel -->
+
+          </div>
+          <div style="clear: both;"></div>
+        </div>
+      </div>
+        </div>
+    </div>
+  <!--- Top of Page Head Section -->
+  <div class="header_topWindow">
+    <div class="leftHead">
+      <a href="javascript:showhide('navButton')">
+      <button class="show-button" onclick="showButton(bottomhead)">
+        <div class="show_line"></div>
+        <div class="show_line"></div>
+        <div class="show_line"></div>
+        </button></a>
+      <div id="navButton" style="display:none;">
+        <div class="control_panel">
+            <div id="controlPanel">
+              <label for="show-menu" class="show-menu">&equiv;</label>
+              <input type="checkbox" id="show-menu" role="button">
+              <ul id="Page1Link">
+
+              </ul>
+              <!-- CSS Control Panel -->
+            </div>
+            <div style="clear: both;"></div>
+          </div>
+        </div>
+    </div>
+    <div class="centerHead">
+      <a href="#" id="head_logo"><img src="https://app.salesdrip.com/users/myteam42369/Media1710.png" alt=""></a>
+    </div>
+    <div class="rightHead">
+      <p><a href="https://app.salesdrip.com/app2/login.pl">Log in</a> | <a href="https://www.salesdrip.com/demo"> Schedule a Demo</a>
+      </p>
+      </div>
+    </div>
+<!--- Scroll Down Page Head Section ------------------------------------------->
+<div class="headsection">
+      <div class="uppersection">
+        <div class="head_contact">
+          <div class="left_contact black">
+            <div class="contact_info black">
+              <img src="https://app.salesdrip.com/users/myteam46201/Media125.png" alt=""> <p>Toll Free: <strong>1-888-898-7468</strong> </p>
+            </div>
+            <div class="contact_info black">
+              <img src="https://app.salesdrip.com/users/myteam46201/Media126.png" alt="" style="margin-right: 10px;"> <p>Email us: <a href="mailto:%20info@sureshotlogistics.com" style="color:black;"><strong>info@sureshotlogistics.com</strong></a></p>
+            </div>
+          </div>
+          <div class="right_contact_scrolled black">
+            <div class="contact_icon_scrolled">
+              <img src="https://app.salesdrip.com/users/myteam46201/Media130.png" alt="" style="margin-right: .1rem;">
+            </div>
+            <div class="contact_icon_scrolled black">
+              <img src="https://app.salesdrip.com/users/myteam46201/Media127.png" alt="" style="margin-right: .27rem;">
+            </div>
+            <div class="contact_icon_scrolled black">
+              <img src="https://app.salesdrip.com/users/myteam46201/Media129.png" alt="">
+            </div>
+            <div class="contact_icon_scrolled black">
+              <img src="https://app.salesdrip.com/users/myteam46201/Media131.png" alt="">
+            </div>
+            <div class="contact_icon_scrolled black">
+              <img src="https://app.salesdrip.com/users/myteam46201/Media128.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_line"></div>
+      <div class="lowersection">
+      <div class="lefthead">
+      <a href="https://sureshotlogistics.com/"><div class="logo">
+          <img src="https://app.salesdrip.com/users/myteam46201/Media23.png" alt="">
+        </div></a>
+      </div>
+      <div class="righthead">
+        <div class="control_panel">
+            <div id="controlPanel">
+              <label for="show-menu" class="show-menu">&equiv;</label>
+              <input type="checkbox" id="show-menu" role="button">
+              <ul id="Page1Link">
+
+              </ul>
+              <!-- CSS Control Panel -->
+
+            </div>
+            <div style="clear: both;"></div>
+          </div>
+        </div>
+          </div>
+      </div>
+
+
+
+  <!------------------------------------- Body Section ------------------------------------------->
+  <div class="page_content">
+    <div class="logo">
+      <img src="https://app.salesdrip.com/users/myteam42369/Media1716.svg" alt="">
+    </div>
+    <div class="resources" data-aos="fadeIn" data-aos-anchor-placement="top-center">
+      <p> <span style="font-weight: 300; letter-spacing: .4rem; color: #666; font-size: 2rem;">
+        RESOURCES</span> <br> Let's Get Started </p>
+      <div class="directory">
+        <div class="aos_class"  data-aos="zoomIn" data-aos-anchor-placement="top-center" data-aos-delay="100">
+        <div class="block">
+          <img src="https://app.salesdrip.com/users/myteam42369/Media1711.png" alt="">
+          <h3>Starting From Scratch? <br> We've Got You Covered. </h3>
+          <p>Creating a website can feel overwhelming. Don't be concerned, we will guide you through the entire process!
+             Our in-house website developers will lead you down the correct path.</p>
+          <div class="go_button">
+            <a href="#">Go ➜</a>
+          </div>
+        </div>
+      </div>
+        <div class="aos_class"  data-aos="zoomIn" data-aos-anchor-placement="top-center" data-aos-delay="300">
+        <div class="block">
+          <img src="https://app.salesdrip.com/users/myteam42369/Media1712.png" alt="">
+          <h3> Need to Update <br> Your Current Site? </h3>
+          <p>Your website often sets the first impression for your company. What are you conveying to
+            your prospects and customers? If you're not satisfied and need a refresh - we've got you covered. </p>
+          <div class="go_button">
+            <a href="#">Go ➜</a>
+          </div>
+        </div>
+        </div>
+        <div class="aos_class"  data-aos="zoomIn" data-aos-anchor-placement="top-center" data-aos-delay="500">
+        <div class="block">
+          <img src="https://app.salesdrip.com/users/myteam42369/Media1713.png" alt="">
+          <h3>Explore Our Website <br> Capabilities.</h3>
+          <p>SalesDrip specializes in the freight & logistics industry and we know what content resonates
+             with traffic managers. Our websites are hand made from scratch by our own in-house developers.</p>
+          <div class="go_button">
+            <a href="#">Go ➜</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="start" data-aos="fade-up" data-aos-delay="100">
+      <h2><img src="https://app.salesdrip.com/users/myteam42369/Media1717.png" alt="">We're exprienced in providing <br>solutions to GlobalTranz Agents </h2>
+       <p> SalesDrip's front end development team has provided numerous solutions to many of the
+         top performing GlobalTranz Agents. We understand..</p>
+    </div>
+    <div class="prerequisite">
+      <div class="laptop-bg">
+        <div class="left_box">
+          <p>Before we begin, here's what youll need:</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------------------------------- Footer Section ------------------------------------------->
+  <div class="scroll_dark" onclick="window.scrollTo(0, 0);">
+    <img src="https://app.salesdrip.com/users/myteam46201/Media149.png" alt="">
+  </div>
+
+<footer>
+  <div class="footer_info">
+    <div class="section_caption" style="color: white; font-size: 20px;">
+      GET IN TOUCH
+      <div class="caption_line"></div>
+    </div>
+    <div class="footer_content">
+      Sure Shot Logistics <br> <br>
+      404 E 4th St Suite 202 Royal Oak, MI 48067 <br>
+      T - 888-898-7468 <br>
+      F - 866-364-2503 <br>
+      ADAMR@SURESHOTLOGISTICS.COM <br><br>
+      © Copyright 2017 -Sure Shot Logistics <br>
+    </div>
+  </div>
+</footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init({duration: 800});
+ </script>
+ <script type="text/javascript">
+   window.scrollTo(0, 0);
+ </script>
+
+ <script>
+ function showhide(id) {
+    var e = document.getElementById(id);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+ }
+ </script>
+
+</body>
+</html>
